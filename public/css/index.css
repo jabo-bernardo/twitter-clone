@@ -99,6 +99,51 @@
     padding: 0.25rem 1rem;
 }
 
+.tweets {
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #DDD;
+}
+
+.tweets .tweet-card .pfp img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+
+.tweets .tweet-card .tweet-info {
+    margin-left: 1rem;
+}
+
+.tweets .tweet-card {
+    padding-bottom: 1rem;
+}
+
+.tweets .tweet-card * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tweets .tweet-card .tweet-header span {
+    color: #999999;
+}
+
+.tweets .tweet-card .tweet-footer {
+    margin-top: 1rem;
+}
+
+.tweets .tweet-card .tweet-footer button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+.tweets .tweet-card .tweet-footer button:hover {
+    color: #007bff;
+}
+
 textarea:focus, 
 textarea.form-control:focus, 
 input.form-control:focus, 
