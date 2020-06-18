@@ -1,4 +1,60 @@
 extends ../partials/_layout.pug
 
 block content
-    h1 Hello World
+    div.root.row.container
+        div.navigation.col-lg-3
+            div.container-header
+                i.fi-xnsuxx-twitter.text-primary
+            div.container-content
+                // Navigation
+                div.main-nav
+                    div.navi-item.active
+                        div.icon
+                            i.fi-xnsuxx-house-solid
+                        div.title
+                            h5.font-weight-bold Home
+                    div.navi-item
+                        div.icon
+                            i.fi-xnsuxx-hashtag
+                        div.title
+                            h5.font-weight-bold Explore
+                    div.navi-item
+                        div.icon
+                            i.fi-xnsuxx-bell
+                        div.title
+                            h5.font-weight-bold Notification
+                    div.navi-item
+                        div.icon
+                            i.fi-xnsuxx-envelope
+                        div.title
+                            h5.font-weight-bold Messages
+                    div.navi-item
+                        div.icon
+                            i.fi-xnsuxx-bookmark
+                        div.title
+                            h5.font-weight-bold Bookmarks
+                    div.navi-item
+                        div.icon
+                            i.fi-snluxx-three-bars-wide
+                        div.title
+                            h5.font-weight-bold Lists
+                    div.navi-item
+                        div.icon
+                            i.fi-xnsuxx-user
+                        div.title
+                            h5.font-weight-bold User
+                    div.navi-item
+                        div.icon
+                            i.fi-cnluxx-ellipsis
+                        div.title
+                            h5.font-weight-bold More
+        div.timeline.col-lg-6
+            div.container-header
+                h5 Home
+        div.others.col-lg-3
+            div.container-header
+                form.search
+                    div.input-group
+                        div.input-group-prepend
+                            i.fi-xtsuhl-search
+                        input(type="text", name="query")
