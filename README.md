@@ -12,3 +12,6 @@ I'm aiming to clone twitter for hobby.
 - CSS (Frontend)
 - JavaScript (Frontend)
 - Passport (Authentication)
+
+## Support
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F31TZ6U)
